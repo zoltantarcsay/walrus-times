@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=UnifrakturMaguntia&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css');
+
+.brand {
+    font-family: 'UnifrakturMaguntia', cursive;
+}
+
+.serif {
+    font-family: 'Libre Baskerville', serif;
+}
+
+hr.separator {
+    border-top: 4px double;
+}

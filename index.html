@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>The Walrus Times</title>
+    <meta name="description" content="All the News That's Fit to Barf">
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
@@ -19,7 +20,7 @@
         <hr class="m-0">
         <div class="row">
             <div class="col">
-                <nav class="navbar navbar-light navbar-expand-md p-0">
+                <nav class="navbar navbar-light navbar-expand-md p-0" role="navigation">
                     <div class="navbar-collapse collapse">
                         <ul class="navbar-nav">
                             <li class="nav-item px-3"><a class="nav-link" href="#">Home</a></li>
@@ -50,60 +51,84 @@
         <div class="row">
             <div class="col-8">
                 <section>
-                    <h2 class="display-4 serif"><i>The Life and Opinions of the Coronawalrus</i></h2>
-                    <img src="images/coronawalrus.png" class="img-fluid border" alt="Coronawalrus">
-                    <p class="lead serif mt-3">
-                        The inspiring journey of a common walrus to the top of the food chain
-                    </p>
-                    <p class="serif text-muted">
-                        Also, why is he so fat, why are his paw-thingies so small, why are his tusks bloody and what
-                        connects him to a growing heap of dead walrus? In our investigative report we also search for the 
-                        walrus's tax returns.
-                    </p>
-                </section>
-                <hr class="my-5">
-                <section>
-                    <h2 class="serif"><i>President Angry Walrus Says We Have the Best Fish by Far and There
-                            is No Need to Panic</i></h2>
-
-                    <p class="lead serif mt-3">
-                        <img src="images/walrus-1.png" class="img-fluid float-left mr-3" style="max-width: 33%;"
-                            alt="President Walrus">
-                        The President claims that there has never been more fish. But experts say otherwise.
-                    </p>
-                    <p class="serif text-muted">
-                        The Walrus Times reports that the Alpha Male of the United Huddle of Walrus declared at a press
-                        conference his unyielding dedication to provide fish for businesses.
-                    </p>
+                    <article>
+                        <header>
+                            <h2 class="display-4 serif"><i>The Life and Opinions of the Coronawalrus</i></h2>
+                        </header>
+                        <main>
+                            <img src="images/coronawalrus.png" class="img-fluid border" alt="Coronawalrus">
+                            <p class="lead serif mt-3">
+                                The inspiring journey of a common walrus to the top of the food chain
+                            </p>
+                            <p class="serif text-muted">
+                                Also, why is he so fat, why are his paw-thingies so small, why are his tusks bloody and
+                                what
+                                connects him to a growing heap of dead walrus? In our investigative report we also
+                                search
+                                for
+                                the
+                                walrus's tax returns.
+                            </p>
+                        </main>
+                    </article>
+                    <hr class="my-5">
+                    <article>
+                        <header>
+                            <h2 class="serif"><i>President Angry Walrus Says We Have the Best Fish by Far and There
+                                    is No Need to Panic</i></h2>
+                        </header>
+                        <main>
+                            <p class="lead serif mt-3">
+                                <img src="images/walrus-1.png" class="img-fluid float-left mr-3" style="max-width: 33%;"
+                                    alt="President Walrus">
+                                The President claims that there has never been more fish. But experts say otherwise.
+                            </p>
+                            <p class="serif text-muted">
+                                The Walrus Times reports that the Alpha Male of the United Huddle of Walrus declared at
+                                a
+                                press
+                                conference his unyielding dedication to provide fish for businesses.
+                            </p>
+                        </main>
+                    </article>
                 </section>
             </div>
             <div class="col-4">
-                <h4 class="serif"><strong>Fish Reserves at All-Time Low</strong></h4>
-                <p class="serif">
-                    Economists warn that recovery code issues have decimated the domestic fish supply. Here's what you
-                    need
-                    to know.
-                </p>
-                <p class="serif text-muted">
-                    <small>
-                        Every day users are losing their recovery codes by the millions. The alternative method so far
-                        has proven ineffective. We must flatten the curve. The President has done nothing so far to
-                        alleviate the situation. But how long can the Walrus people go on if nothing changes?
-                        We have sent our reporters to Fish Cove Island to talk to the local Walrus.
-                    </small>
-                </p>
-                <img src="images/fish.png" class="img-fluid border" alt="Fish">
-                <p>
-                    <small>
-                        <i>President Angry Walrus throwing fish at local users who lost their recovery
-                            codes</i>
-                    </small>
-                </p>
-                <p class="serif text-muted mt-3">
-                    <small>
-                        "There ain't no damn fish anywheres", says one disgruntled citizen.
-                    </small>
-                </p>
+                <section>
+                    <article>
+                        <h4 class="serif"><strong>Fish Reserves at All-Time Low</strong></h4>
+                        <p class="serif">
+                            Economists warn that recovery code issues have decimated the domestic fish supply. Here's
+                            what
+                            you
+                            need
+                            to know.
+                        </p>
+                        <p class="serif text-muted">
+                            <small>
+                                Every day users are losing their recovery codes by the millions. The alternative method
+                                so
+                                far
+                                has proven ineffective. We must flatten the curve. The President has done nothing so far
+                                to
+                                alleviate the situation. But how long can the Walrus people go on if nothing changes?
+                                We have sent our reporters to Fish Cove Island to talk to the local Walrus.
+                            </small>
+                        </p>
+                        <img src="images/fish.png" class="img-fluid border" alt="Fish">
+                        <p>
+                            <small>
+                                <i>President Angry Walrus throwing fish at local users who lost their recovery
+                                    codes</i>
+                            </small>
+                        </p>
+                        <p class="serif text-muted mt-3">
+                            <small>
+                                "There ain't no damn fish anywheres", says one disgruntled citizen.
+                            </small>
+                        </p>
+                    </article>
+                </section>
             </div>
         </div>
         <hr>
